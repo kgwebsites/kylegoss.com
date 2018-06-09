@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const facebook = '/static/images/facebook.svg';
-const instagram = '/static/images/instagram.svg';
-const linkedin = '/static/images/linkedin.svg';
-const youtube = '/static/images/youtube.svg';
-const github = '/static/images/github.svg';
-const reddit = '/static/images/reddit.svg';
+const facebook = '/static/images/fb.svg';
+const instagram = '/static/images/ig.svg';
+const linkedin = '/static/images/li.svg';
+const youtube = '/static/images/yt.svg';
+const github = '/static/images/gh.svg';
+const reddit = '/static/images/rd.svg';
 
 const socialProfiles = [
     {
