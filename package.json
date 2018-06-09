@@ -1,0 +1,34 @@
+{
+  "name": "kylegoss.com",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "aws-sdk": "^2.171.0",
+    "material-ui": "^1.0.0-beta.23",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "next": "latest",
+    "react": "^16.2.0",
+    "react-async-script": "^0.9.1",
+    "react-dom": "^16.2.0",
+    "react-form": "^2.14.4",
+    "react-scripts": "1.0.17",
+    "styled-components": "^2.3.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^1.8.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Permanent+Marker');
+
+body {margin: 0;font-family: 'Exo 2', sans-serif;}
+h1, h2, h3, h4, h5, h6 {margin-top: 0;font-family: 'Permanent Marker', cursive;text-shadow: 1px 1px 1px #fff;word-wrap: break-word;white-space: pre-wrap;}
+img {max-width: 100%;}
+
+h1 {font-size: 2.5rem;}
+a {color: #3f72b5;transition: color .5s ease-in-out;}
+a:hover {color: #355f98;}
+
+.text-center {text-align:center;}
