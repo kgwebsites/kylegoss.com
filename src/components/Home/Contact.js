@@ -75,7 +75,14 @@ class Contact extends Component {
                 <h2 className="text-center">Send me a message!</h2>
                 {!this.state.success &&
                     <form id="contact-form" name="Contact Form" data-netlify="true">
-                        <Text name="email" placeholder="Email Address" type="email" value={this.state.email} onChange={this.handleEmailChange} required />
+                        <Text
+                            name="email"
+                            placeholder="Email Address"
+                            type="email"
+                            value={this.state.email}
+                            onChange={this.handleEmailChange}
+                            required
+                        />
                         <Textarea name="message" placeholder="Message" value={this.state.text} onChange={this.handleTextChange} required />
                         <Submit type="submit">Submit</Submit>
                     </form>
