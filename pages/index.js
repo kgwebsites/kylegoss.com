@@ -11,6 +11,12 @@ const index = () => (
             <link rel="manifest" href="/static/manifest.json" key="meta-manifest" />
             <link rel="shortcut icon" href="/static/favicon.ico" key="meta-icon" />
             <link rel="stylesheet" href="/static/css/base.css" key="meta-base-styles" />
+            <div
+                id="bundleLoader"
+                style={{
+                    backgroundColor: '#333', position: 'absolute', top: '0px', left: '0px', width: '100%', height: '100%', zIndex: '2000',
+                }}
+            />
         </Head>
         <Home />
     </div>
