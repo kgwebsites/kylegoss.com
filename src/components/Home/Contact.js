@@ -5,6 +5,16 @@ const Form = styled.section`
     padding: 4rem 0;
 `;
 
+const HoneyPot = styled.div`
+    position: absolute;
+    z-index: -100;
+    left: 99999999999px;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+`;
+
 const Text = styled.input`
     display: block;
     width: 20rem;
@@ -76,6 +86,9 @@ class Contact extends Component {
                 {!this.state.success &&
                     <form method="POST" id="contact-form" name="Contact Form" data-netlify="true" data-netlify-honeypot="bot-field">
                         <input type="hidden" name="form-name" value="contact" />
+                        <HoneyPot>
+                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                        </HoneyPot>
                         <Text
                             name="email"
                             placeholder="Email Address"
