@@ -84,7 +84,7 @@ class Contact extends Component {
             <Form>
                 <h2 className="text-center">Send me a message!</h2>
                 {!this.state.success &&
-                    <form method="POST" id="contact-form" name="Contact Form" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <form method="POST" id="contact" name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
                         <input type="hidden" name="form-name" value="contact" />
                         <HoneyPot>
                             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
