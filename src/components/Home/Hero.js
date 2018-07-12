@@ -23,18 +23,16 @@ const KeyboardArrowDownStyled = styled(KeyboardArrowDown)`
 `;
 
 const Hero = () => (
-    <section>
-        <FullScreen>
-            <i>&nbsp;</i>
-            <div>
-                <h1>Kyle Goss</h1>
-                <h2>Software Engineer</h2>
-                <h2>Entrepreneur</h2>
-                <h2>Teacher</h2>
-            </div>
-            <KeyboardArrowDownStyled />
-        </FullScreen>
-    </section>
+  <section>
+    <FullScreen>
+      <i>&nbsp;</i>
+      <div>
+        <h1>Kyle Goss</h1>
+        <h2>Software Engineer</h2>
+      </div>
+      <KeyboardArrowDownStyled />
+    </FullScreen>
+  </section>
 );
 
 export default Hero;

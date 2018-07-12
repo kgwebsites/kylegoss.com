@@ -1,6 +1,6 @@
 {
   "name": "kylegoss.com",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "private": false,
   "dependencies": {
@@ -8,12 +8,15 @@
     "aws-sdk": "^2.171.0",
     "material-ui": "^1.0.0-beta.23",
     "material-ui-icons": "^1.0.0-beta.17",
-    "next": "latest",
+    "next": "^6.1.1",
+    "prop-types": "^15.6.2",
     "react": "^16.2.0",
     "react-async-script": "^0.9.1",
     "react-dom": "^16.2.0",
     "react-form": "^2.14.4",
     "react-scripts": "1.0.17",
+    "react-slick": "^0.23.1",
+    "slick-carousel": "^1.8.1",
     "styled-components": "^2.3.0"
   },
   "scripts": {
