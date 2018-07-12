@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2|Permanent+Marker');
 
 #bundleLoader {display: none;}
-body {margin: 0;font-family: 'Exo 2', sans-serif;}
+body {margin: 0;font-family: 'Exo 2', sans-serif; overflow-x: hidden;}
 h1, h2, h3, h4, h5, h6 {margin-top: 0;font-family: 'Permanent Marker', cursive;text-shadow: 1px 1px 1px #fff;word-wrap: break-word;white-space: pre-wrap;}
 img {max-width: 100%;}
 

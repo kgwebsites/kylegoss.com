@@ -7,14 +7,14 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 const Home = () => (
-    <main>
-        <Hero />
-        <Projects />
-        <About />
-        <Work />
-        <Contact />
-        <Footer />
-    </main>
+  <main>
+    <Hero />
+    <Projects />
+    <About />
+    <Work />
+    <Contact />
+    <Footer />
+  </main>
 );
 
 export default Home;

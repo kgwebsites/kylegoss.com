@@ -24,12 +24,11 @@ module.exports = {
     ],
     "extends": "airbnb",
     "rules": {
-        "indent": ["error", 4],
         "max-len": 0,
         "react/no-unescaped-entities": 0,
+        "react/no-did-mount-set-state": 0,
         "jsx-a11y/label-has-for": 0,
         "jsx-a11y/anchor-is-valid": 0,
-        "react/jsx-indent": ["error", 4],
         "react/jsx-filename-extension": 0,
         "function-paren-newline": 0,
         "no-underscore-dangle": 0,

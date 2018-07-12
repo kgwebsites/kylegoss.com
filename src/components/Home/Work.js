@@ -9,23 +9,24 @@ const WorkImage = styled.section`
     align-items: center;
     justify-content: center;
     background: url(${work}) center/cover no-repeat fixed;
-    height: 300px;
+    height: 400px;
     color: #fff;
+    font-size: 1.25rem;
 `;
 
 const WorkText = {
-    textShadow: 'none',
+  textShadow: 'none',
 };
 
 const Work = () => (
-    <section>
-        <WorkImage>
-            <h2 style={WorkText}>Career</h2>
-            <h3 style={WorkText}>Front End (Software) Engineer</h3>
-            <h4 style={WorkText}>Foresee Medical Inc</h4>
-            <h5 style={WorkText}>Del Mar, CA</h5>
-        </WorkImage>
-    </section>
+  <section>
+    <WorkImage>
+      <h2 style={WorkText}>Career</h2>
+      <h3 style={WorkText}>Front End (Software) Engineer</h3>
+      <h4 style={WorkText}>Foresee Medical Inc</h4>
+      <h5 style={WorkText}>Del Mar, CA</h5>
+    </WorkImage>
+  </section>
 );
 
 export default Work;
