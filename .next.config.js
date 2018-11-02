@@ -1,8 +1,8 @@
 module.exports = {
   exportPathMap: function(defaultPathMap) {
     return {
-      '/': { page: '/' },
-    }
+      '/': { page: '/' }
+    };
   },
-  distDir: 'out',
-}
+  distDir: '.next'
+};
