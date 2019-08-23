@@ -19,6 +19,7 @@
         background-size: cover;
         background-position: center center;
         background-attachment: fixed;
+        -webkit-filter: grayscale(1);
         filter: grayscale(1);
         height: 100%;
         font-family: 'Hepta Slab', serif;
@@ -27,9 +28,18 @@
         color: #eee;
       }
       .container {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: right;
+        -ms-flex-align: right;
         align-items: right;
         text-align: right;
         height: 100%;
@@ -37,6 +47,7 @@
         color: #eee;
         text-shadow: 1px 1px 1px #111;
         padding: 8px;
+        -webkit-box-sizing: border-box;
         box-sizing: border-box;
         overflow: auto;
       }
