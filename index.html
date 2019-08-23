@@ -4,20 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap"
+      rel="stylesheet"
+    />
     <title>Kyle Goss</title>
-    <link rel="stylesheet" href="./global.css" />
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        background-image: url('/background.jpeg');
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        filter: grayscale(1);
+        height: 100%;
+        font-family: 'Hepta Slab', serif;
+      }
+      a {
+        color: #eee;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: right;
+        text-align: right;
+        height: 100%;
+        width: 100%;
+        color: #eee;
+        text-shadow: 1px 1px 1px #111;
+        padding: 8px;
+        box-sizing: border-box;
+        overflow: auto;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
-      <section class="mt-halfScreen">
-        <h1 class="center">Kyle Goss</h1>
-        <h2 class="center">Frontend Engineer</h2>
-        <p class="center">
-          <a href="https://github.com/kgwebsites">github.com/kgwebsites</a>
-        </p>
-      </section>
-      <div id="ResumeApp"></div>
+      <h1>I am Kyle (Jason) Goss.</h1>
+      <h2>I make <a href="https://github.com/kgwebsites">stuff</a>.</h2>
+      <h2>
+        I <a href="https://www.linkedin.com/in/gosskyle/">work</a> in tech.
+      </h2>
+      <h2>
+        I teach on the
+        <a href="http://www.youtube.com/c/WebDevProfesh">tubes</a>.
+      </h2>
+      <h2>I don't <a href="https://twitter.com/kgwebsites">tweet</a>.</h2>
     </div>
-    <script src="apps.js"></script>
   </body>
 </html>
